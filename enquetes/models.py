@@ -1,4 +1,7 @@
+import datetime
+
 from django.db import models
+from django.utils import timezone
 
 class Pergunta(models.Model):
     texto_da_pergunta = models.CharField(max_length=200)
@@ -6,6 +9,9 @@ class Pergunta(models.Model):
 
     def __str__(self):
         return self.texto_da_pergunta
+
+    def recente(self):
+        return self.data_pub >= timezone.now() - datetime.timedelta(days=1)
 
 class Resposta(models.Model):
     pergunta = models.ForeignKey(Pergunta, on_delete=models.CASCADE)
