@@ -26,7 +26,9 @@
 - acesse a pasta com o Vagrantfile
 - vagrant up
 - vagrant ssh
+
 (note que agora você tá dentro de vagrant@sd)
+
 - cd /vagrant/web-folder/p1/
 - python manage.py runserver 0:8000
 - acesse 192.168.56.101:8000
