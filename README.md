@@ -1,4 +1,4 @@
-# enquetes-django (tô sem ideia)
+# 📊 Enquetes em Django
 
 ## O que é isso?
 
@@ -29,7 +29,7 @@ As instruções a seguir ainda podem estar incompletas.
 - Execute `cp .env.example .env`;
 - Preencha o `.env`;
 - Execute `python manage.py runserver 0:8000`;
-- Acesse `192.168.56.101:8000/enquetes`;
+- Acesse `192.168.56.101:8000/enquetes`.
 
 *confira no VirtualBox ou executando `vagrant global-status`
 
@@ -53,4 +53,4 @@ A partir da URL `192.168.56.101:8000`, os seguintes caminhos podem ser acessados
 - `/enquetes`;
 - `/enquetes/<question_id>`;
 - `/enquetes/<question_id>/resultados`;
-- `/enquetes/<question_id>/votar`;
+- `/enquetes/<question_id>/votar`.
