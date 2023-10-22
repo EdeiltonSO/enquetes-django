@@ -2,7 +2,7 @@
 
 ## O que é isso?
 
-É uma aplicação feita em Django para a criação de enquetes. Nela, o usuário pode isualizar uma lista de perguntas, acessar, votar e ver o resultado das respostas dadas.
+É uma aplicação feita em Django para a criação de enquetes. Nela, o usuário pode visualizar uma lista de perguntas, acessar, votar e ver o resultado das respostas dadas.
 
 Além disso, há um módulo para a administração do banco de dados.
 
@@ -21,7 +21,7 @@ As instruções a seguir ainda podem estar incompletas.
 - Execute `vagrant up`;
 - Execute `vagrant ssh`;
 
-(note que agora você tá dentro de vagrant@sd)
+(note que agora você está em vagrant@sd)
 
 - Execute `cd /vagrant/web-folder/`;
 - Faça o `git clone` deste repositório;
@@ -39,7 +39,7 @@ As instruções a seguir ainda podem estar incompletas.
 - Execute `vagrant up`;
 - Execute `vagrant ssh`;
 
-(note que agora você tá dentro de vagrant@sd)
+(note que agora você está em vagrant@sd)
 
 - Execute `cd /vagrant/web-folder/enquetes-django/`;
 - Execute `python manage.py runserver 0:8000`;
